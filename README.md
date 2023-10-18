@@ -6,14 +6,14 @@ DompixelShop é uma aplicação web baseada em Laravel para gerenciamento de pro
 
 ### Pré-requisitos
 
-- Ter o PHP 8.1 ou maior instalado na máquina.
+- Ter o PHP 8.1 ou superior instalado na máquina.
 - Ter o Composer instalado na máquina.
 
 ### Passos para a Execução
 
 1. **Clonar o Repositório**
     ```bash
-    git clone [URL_DO_REPOSITÓRIO]
+    git clone https://github.com/joe-islan/DompixelShop.git
     ```
 
 2. **Navegar até o diretório do projeto**
