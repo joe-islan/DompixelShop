@@ -26,22 +26,28 @@ DompixelShop é uma aplicação web baseada em Laravel para gerenciamento de pro
       ```bash
       composer install
       ```
+      
+4. **Copiar o arquivo de configuração e gerar chave de aplicação**
+    ```bash
+    cp .env.example .env
+    php artisan key:generate
+    ```
 
-4. **Configurar o Banco de Dados**
+5. **Configurar o Banco de Dados**
     - Edite o arquivo `.env` com as credenciais do seu banco de dados, o banco de dados utilizado foi MySQL.
 
-5. **Executar as Migrations**
+6. **Executar as Migrations**
     - Para criar as tabelas necessárias no banco de dados, execute:
       ```bash
       php artisan migrate
       ```
 
-6. **Iniciar o Servidor Local**
+7. **Iniciar o Servidor Local**
     ```bash
     php artisan serve
     ```
 
-7. **Acessar a Aplicação**
+8. **Acessar a Aplicação**
     - No navegador, acesse: `http://127.0.0.1:8000`
 
 ### Notas Adicionais
