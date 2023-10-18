@@ -7,7 +7,7 @@
                 <div class="card">
                     <div class="card-header">{{ $product->name }}</div>
                     <div class="card-body">
-                        <h5 class="card-title">${{ $product->price }}</h5>
+                        <h5 class="card-title">R$ {{ $product->price }}</h5>
                         <p class="card-text"><strong>Stock Quantity:</strong> {{ $product->stock_quantity }}</p>
                         <a href="#" class="btn btn-primary">View Details</a>
                     </div>
