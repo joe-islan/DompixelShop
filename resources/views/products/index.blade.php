@@ -11,11 +11,6 @@
                 <td>{{ $product->stock_quantity }}</td>
                 <td>
                     <a href="{{ route('products.edit', $product) }}" class="btn btn-warning">Edit</a>
-                    {{-- <form action="{{ route('products.destroy', $product) }}" method="POST" class="d-inline">
-                        @csrf
-                        @method('DELETE')
-                        <button type="submit" class="btn btn-danger">Delete</button>
-                    </form> --}}
                     <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteModal"
                         data-id="{{ $product->id }}">Deletar</button>
                 </td>
